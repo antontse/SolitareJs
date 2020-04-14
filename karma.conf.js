@@ -36,10 +36,10 @@ module.exports = function (config) {
     ],
 
     junitReporter: {
-      outputDir: "test_out",
-      suite: "unit",
+      outputDir: "test_output",
+      suite: "",
       outputFile: "test-results.xml",
-      useBrowserName: "true"
+      useBrowserName: true
     }
 
   });
