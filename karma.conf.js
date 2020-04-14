@@ -22,6 +22,8 @@ module.exports = function (config) {
     ],
 
     autoWatch: true,
+    
+    reporters: ["junit"],
 
     frameworks: ["jasmine"],
 
